@@ -10,25 +10,6 @@ import random
 # “3 is an odd number”
 # “9 is an odd number”“2 is an even number”
 
-def is_even(number):
-    if number % 2 == 0:
-        return True
-    else:
-        return False
-    
-def generate_random_num(start,end, num):
-    rand_num_list = []
-    counter = 0
-    while counter < num:
-        rand_num = random.randint(start, end)
-        if rand_num not in rand_num_list:
-            rand_num_list.append(rand_num)
-        counter += 1
-    return rand_num_list
-
-test_num = rand
-
-
 # ## Task 2: Age Group
 # Create a function that will take in someone’s age and return either of the following based on the age provided:
 # - ‘Child’ (Below 13)
